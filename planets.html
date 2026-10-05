@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroNomad | Planets of Our Solar System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-icon">🌌</span> AstroNomad
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="planets.html">Planets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <p class="section-tag">Solar System</p>
+        <h1>Our <span class="gradient-text">Planets</span></h1>
+        <p>Discover the 8 planets that orbit our Sun.</p>
+    </section>
+
+    <!-- CIRCULAR PROFILE IMAGE -->
+    <section class="profile-section">
+        <div class="profile-container">
+            <img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400" alt="Solar system" class="profile-img">
+            <div class="profile-glow"></div>
+        </div>
+        <h2>Meet the <span class="gradient-text">Planets</span></h2>
+        <p class="profile-text">Each planet has unique characteristics. Let's explore them together!</p>
+    </section>
+
+    <!-- GRID LAYOUT: SIDEBAR + MAIN CONTENT -->
+    <section class="grid-layout">
+        <aside class="sidebar">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#mercury">Mercury</a></li>
+                <li><a href="#venus">Venus</a></li>
+                <li><a href="#earth">Earth</a></li>
+                <li><a href="#mars">Mars</a></li>
+                <li><a href="#jupiter">Jupiter</a></li>
+                <li><a href="#saturn">Saturn</a></li>
+                <li><a href="#uranus">Uranus</a></li>
+                <li><a href="#neptune">Neptune</a></li>
+            </ul>
+            <h3>💡 Fun Fact</h3>
+            <p>Jupiter is so big that all other planets could fit inside it!</p>
+            <h3>🔭 Did You Know?</h3>
+            <p>A day on Venus is longer than a year on Venus.</p>
+        </aside>
+
+        <div class="main-content">
+            <h2>About Our Solar System</h2>
+            <p>Our solar system consists of the Sun and everything that orbits around it, including 8 planets, moons, asteroids, and comets.</p>
+            
+            <h3>The 8 Planets</h3>
+            <p>The planets are divided into three groups:</p>
+            <ul>
+                <li><strong>Terrestrial planets:</strong> Mercury, Venus, Earth, Mars</li>
+                <li><strong>Gas giants:</strong> Jupiter, Saturn</li>
+                <li><strong>Ice giants:</strong> Uranus, Neptune</li>
+            </ul>
+
+            <h3>How to Observe Planets</h3>
+            <ol class="steps-list">
+                <li>Choose a clear night with minimal light pollution.</li>
+                <li>Use a telescope or binoculars for better view.</li>
+                <li>Download a star map app to locate planets.</li>
+                <li>Look for bright steady lights — those are planets!</li>
+            </ol>
+
+            <h3>Quick Facts</h3>
+            <p>Earth is the only planet known to support life. Mars has the tallest volcano in the solar system (Olympus Mons, 21 km tall). Saturn's rings are made of ice and rock particles.</p>
+        </div>
+    </section>
+
+    <!-- TABLE -->
+    <section class="table-section">
+        <div class="section-header">
+            <p class="section-tag">Data</p>
+            <h2>Planet <span class="gradient-text">Comparison</span></h2>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Planet</th>
+                        <th>Distance from Sun</th>
+                        <th>Diameter (km)</th>
+                        <th>Moons</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Mercury</td><td>57.9 million km</td><td>4,879</td><td>0</td></tr>
+                    <tr><td>Venus</td><td>108.2 million km</td><td>12,104</td><td>0</td></tr>
+                    <tr><td>Earth</td><td>149.6 million km</td><td>12,742</td><td>1</td></tr>
+                    <tr><td>Mars</td><td>227.9 million km</td><td>6,779</td><td>2</td></tr>
+                    <tr><td>Jupiter</td><td>778.5 million km</td><td>139,820</td><td>95</td></tr>
+                    <tr><td>Saturn</td><td>1.43 billion km</td><td>116,460</td><td>146</td></tr>
+                    <tr><td>Uranus</td><td>2.87 billion km</td><td>50,724</td><td>27</td></tr>
+                    <tr><td>Neptune</td><td>4.5 billion km</td><td>49,244</td><td>14</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">🌌</span>
+                <span>AstroNomad</span>
+            </div>
+            <p>© 2025 AstroNomad | Created by <strong>Smail Balaussa</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

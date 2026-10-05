@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroNomad | Space Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-icon">🌌</span> AstroNomad
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="planets.html">Planets</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <p class="section-tag">Gallery</p>
+        <h1>Space <span class="gradient-text">Gallery</span></h1>
+        <p>Amazing images from across the universe.</p>
+    </section>
+
+    <!-- BOOTSTRAP CAROUSEL (9 images) -->
+    <section class="carousel-section">
+        <div class="section-header">
+            <p class="section-tag">Carousel</p>
+            <h2>Featured <span class="gradient-text">Images</span></h2>
+        </div>
+
+        <div id="spaceCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#spaceCarousel" data-bs-slide-to="8"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200" class="d-block w-100" alt="Earth">
+                    <div class="carousel-caption">
+                        <h3>Planet Earth</h3>
+                        <p>Our home in the cosmos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=1200" class="d-block w-100" alt="Mars">
+                    <div class="carousel-caption">
+                        <h3>Mars</h3>
+                        <p>The Red Planet</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=1200" class="d-block w-100" alt="Saturn">
+                    <div class="carousel-caption">
+                        <h3>Saturn</h3>
+                        <p>Lord of the Rings</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=1200" class="d-block w-100" alt="Solar System">
+                    <div class="carousel-caption">
+                        <h3>Solar System</h3>
+                        <p>Our cosmic neighborhood</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=1200" class="d-block w-100" alt="Nebula">
+                    <div class="carousel-caption">
+                        <h3>Nebula</h3>
+                        <p>Cosmic clouds of gas</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1200" class="d-block w-100" alt="Galaxy">
+                    <div class="carousel-caption">
+                        <h3>Galaxy</h3>
+                        <p>Billions of stars</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1200" class="d-block w-100" alt="Stars">
+                    <div class="carousel-caption">
+                        <h3>Stars</h3>
+                        <p>Infinite lights</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200" class="d-block w-100" alt="Space">
+                    <div class="carousel-caption">
+                        <h3>Deep Space</h3>
+                        <p>Beyond our imagination</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1504333638930-c8787321eee0?w=1200" class="d-block w-100" alt="Moon">
+                    <div class="carousel-caption">
+                        <h3>The Moon</h3>
+                        <p>Earth's companion</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#spaceCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#spaceCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CSS GRID IMAGE GALLERY (9 images with hover caption) -->
+    <section class="gallery-section">
+        <div class="section-header">
+            <p class="section-tag">Grid Gallery</p>
+            <h2>Cosmic <span class="gradient-text">Images</span></h2>
+        </div>
+        <div class="image-gallery">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400" alt="Earth">
+                <div class="caption">Earth</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400" alt="Mars">
+                <div class="caption">Mars</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400" alt="Saturn">
+                <div class="caption">Saturn</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=400" alt="Solar System">
+                <div class="caption">Solar System</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=400" alt="Nebula">
+                <div class="caption">Nebula</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400" alt="Galaxy">
+                <div class="caption">Galaxy</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400" alt="Stars">
+                <div class="caption">Stars</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400" alt="Space">
+                <div class="caption">Deep Space</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1504333638930-c8787321eee0?w=400" alt="Moon">
+                <div class="caption">The Moon</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">🌌</span>
+                <span>AstroNomad</span>
+            </div>
+            <p>© 2025 AstroNomad | Created by <strong>Smail Balaussa</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
